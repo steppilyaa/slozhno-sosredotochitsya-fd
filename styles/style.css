@@ -168,9 +168,7 @@
 .link:focus-visible {
   outline: 1px solid var(--paragraph-color);
 }
-.question_title {
-  margin-bottom: var(--padding-mid);
-}
+
 .card {
   margin-bottom: var(--padding-mid);
 }
@@ -184,11 +182,12 @@
   margin-bottom: var(--padding-mid);
 }
 .question_title {
-  color: var(--accent-color);
   font-family: var(--font-family), monospace;
   font-weight: var(--bold-font-weight);
   font-size: var(--p-font-size);
   line-height: 24px;
+  margin-bottom: var(--padding-mid);
+  color: var(--accent-color);
 }
 .card_paragraph {
   color: var(--paragraph-color);
