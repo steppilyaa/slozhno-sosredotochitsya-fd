@@ -5,24 +5,28 @@
 */
 
 :root.theme-light {
-  --bg-image: url("/images/cover-image-light.png");
+  --bg-image: url("../images/cover-image-light.png");
   --accent-color: rgba(255, 141, 203, 1);
   --focus-color: rgba(255, 194, 230, 1);
   --paragraph-color: rgba(53, 52, 48, 1);
   --background-color: rgba(255, 241, 247);
+  --hover-button: rgba(50, 49, 45, 0.4);
+  --menu-font-color: rgba(53, 52, 48, 1);
 }
 :root.theme-light .header-rec {
   display: none;
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --bg-image: url("/images/cover-image-light.png");
+    --bg-image: url("../images/cover-image-light.png");
     --accent-color: rgba(255, 141, 203, 1);
     --focus-color: rgba(255, 194, 230, 1);
     --paragraph-color: rgba(53, 52, 48, 1);
     --background-color: rgba(255, 241, 247);
+    --hover-button: rgba(50, 49, 45, 0.4);
+    --menu-font-color: rgba(53, 52, 48, 1);
   }
-  :root .header-rec {
+  .header-rec {
     display: none;
   }
 }

@@ -3,7 +3,7 @@
   и их переопределение под различные устройства
 */
 :root {
-  --bg-image: url("/images/cover-image-dark.png");
+  --bg-image: url("../images/cover-image-dark.png");
   --p-font-size: 18px;
   --font-family: "IBM Plex mono";
   --normal-font-weight: 400;
@@ -12,6 +12,8 @@
   --focus-color: rgba(219, 0, 255, 1);
   --paragraph-color: rgba(241, 178, 206, 1);
   --background-color: rgba(0, 0, 40, 1);
+  --hover-button: rgba(255, 0, 112, 0.4);
+  --menu-font-color: rgba(255, 0, 112, 1);
   --padding-large: 50px;
   --padding-mid: 20px;
   --padding-small: 10px;
