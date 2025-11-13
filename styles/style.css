@@ -320,7 +320,7 @@
     gap: 10px;
   }
   .question_whole-width {
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     max-width: 100%;
   }
   .question_title_whole-width {
@@ -329,6 +329,7 @@
   }
   .question_whole-width .card {
     grid-column: inherit;
+    grid-row: inherit;
   }
   .card {
     grid-column: 2/4;
