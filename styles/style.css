@@ -1,7 +1,6 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  min-height: 668px;
   background-color: var(--background-color);
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
   background-image: var(--bg-image);
@@ -91,7 +90,7 @@
   right: var(--sections-paddings);
   width: 25px;
   height: 25px;
-  border: solid 1px var(--accent-color);
+  border: solid 1px var(--menu-font-color);
   border-bottom: none;
   border-left: none;
 }
@@ -102,7 +101,7 @@
   left: var(--sections-paddings);
   width: 25px;
   height: 25px;
-  border: solid 1px var(--accent-color);
+  border: solid 1px var(--menu-font-color);
   border-top: none;
   border-right: none;
 }
@@ -181,12 +180,18 @@
   font-size: var(--p-font-size);
   line-height: 24px;
 }
+.question_title_whole-width {
+  inline-size: calc(100% / 3);
+}
 .card_paragraph {
   color: var(--paragraph-color);
   font-family: var(--font-family), monospace;
   font-weight: var(--normal-font-weight);
   font-size: var(--p-font-size);
   line-height: 23.4px;
+}
+.card_paragraph:not(:last-of-type) {
+  padding-bottom: var(--padding-small);
 }
 .card_title_thin {
   font-weight: var(--normal-font-weight);
