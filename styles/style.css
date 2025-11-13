@@ -180,9 +180,7 @@
   font-size: var(--p-font-size);
   line-height: 24px;
 }
-.question_title_whole-width {
-  inline-size: calc(100% / 3);
-}
+
 .card_paragraph {
   color: var(--paragraph-color);
   font-family: var(--font-family), monospace;
@@ -325,8 +323,9 @@
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     max-width: 100%;
   }
-  .question_whole-width .question_title {
+  .question_title_whole-width {
     grid-column: 1/4;
+    inline-size: calc(100% / 3);
   }
   .question_whole-width .card {
     grid-column: inherit;
